@@ -1,0 +1,21 @@
+button {
+	text-transform: uppercase;
+	font-size: 150%;
+	&:hover {
+		background-color: #DDD;
+	}
+	.controls & {
+		max-width: 100px;
+		height: 100px;
+		width: 100%;
+		border-radius: 50%;
+		outline: 0;
+		vertical-align: top;
+	}
+}	
+
+#pause>span{
+	transform: rotate(90deg);
+	font-size: 150%;
+	display: block;
+}

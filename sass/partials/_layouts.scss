@@ -1,0 +1,38 @@
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+#main {
+	@extend %default-padding;
+	section {
+		// @extend %band;
+	}
+}
+
+h1 + p,
+h3 + p {
+	margin-top: -1em;
+}
+
+ul.card-holder {
+	padding: 0px;
+	margin: 0px;
+	li {
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid #ccc;
+		padding: $b;
+		&.flip {
+			background-color: red;
+		}
+	}
+}

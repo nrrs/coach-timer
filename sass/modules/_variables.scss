@@ -1,0 +1,13 @@
+// Base Unit
+$base-unit:			15px;
+$b:					$base-unit;
+
+// Placeholders
+%default-padding {
+	padding: 0px $b;
+}
+
+%band {
+	display: block;
+	padding: $b*3 $b;
+}

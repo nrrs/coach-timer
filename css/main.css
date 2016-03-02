@@ -1,0 +1,323 @@
+/* line 6, ../sass/modules/_variables.scss */
+#main {
+  padding: 0px 15px;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+label {
+  text-transform: uppercase;
+}
+
+/* line 6, ../sass/modules/_variables.scss */
+#main {
+  padding: 0px 15px;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+label {
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/partials/_buttons.scss */
+button {
+  text-transform: uppercase;
+  font-size: 150%;
+}
+/* line 4, ../sass/partials/_buttons.scss */
+button:hover {
+  background-color: #DDD;
+}
+/* line 7, ../sass/partials/_buttons.scss */
+.controls button {
+  max-width: 100px;
+  height: 100px;
+  width: 100%;
+  border-radius: 50%;
+  outline: 0;
+  vertical-align: top;
+}
+
+/* line 17, ../sass/partials/_buttons.scss */
+#pause > span {
+  transform: rotate(90deg);
+  font-size: 150%;
+  display: block;
+}
+
+/* line 1, ../sass/partials/_figures.scss */
+figure {
+  border: 1px solid blue;
+}
+
+/* line 1, ../sass/partials/_layouts.scss */
+.left {
+  float: left;
+}
+
+/* line 4, ../sass/partials/_layouts.scss */
+.right {
+  float: right;
+}
+
+/* line 7, ../sass/partials/_layouts.scss */
+.hidden {
+  display: none;
+}
+
+/* line 10, ../sass/partials/_layouts.scss */
+.show {
+  display: block;
+}
+
+/* line 21, ../sass/partials/_layouts.scss */
+h1 + p,
+h3 + p {
+  margin-top: -1em;
+}
+
+/* line 26, ../sass/partials/_layouts.scss */
+ul.card-holder {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 29, ../sass/partials/_layouts.scss */
+ul.card-holder li {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+/* line 34, ../sass/partials/_layouts.scss */
+ul.card-holder li.flip {
+  background-color: red;
+}
+
+/* line 1, ../sass/partials/_timer.scss */
+#timer {
+  text-align: center;
+}
+/* line 3, ../sass/partials/_timer.scss */
+#timer .display {
+  font-size: 500%;
+}
+/* line 6, ../sass/partials/_timer.scss */
+#timer input {
+  width: 150px;
+  text-align: center;
+}
+
+/* line 11, ../sass/partials/_timer.scss */
+#complete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 198, 0, 0.65);
+}
+/* line 18, ../sass/partials/_timer.scss */
+#complete span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 750%;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+/* line 2, ../sass/partials/_typography.scss */
+#main h1, #main h2 {
+  text-transform: uppercase;
+}
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/* line 3, ../sass/vendor/_bp5.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 9, ../sass/vendor/_bp5.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 14, ../sass/vendor/_bp5.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 19, ../sass/vendor/_bp5.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 28, ../sass/vendor/_bp5.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/* line 37, ../sass/vendor/_bp5.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 43, ../sass/vendor/_bp5.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 47, ../sass/vendor/_bp5.scss */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 73, ../sass/vendor/_bp5.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 78, ../sass/vendor/_bp5.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 89, ../sass/vendor/_bp5.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 99, ../sass/vendor/_bp5.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 103, ../sass/vendor/_bp5.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 109, ../sass/vendor/_bp5.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 113, ../sass/vendor/_bp5.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 122, ../sass/vendor/_bp5.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 131, ../sass/vendor/_bp5.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 136, ../sass/vendor/_bp5.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 140, ../sass/vendor/_bp5.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 144, ../sass/vendor/_bp5.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  /* line 149, ../sass/vendor/_bp5.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 155, ../sass/vendor/_bp5.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 159, ../sass/vendor/_bp5.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 164, ../sass/vendor/_bp5.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* line 168, ../sass/vendor/_bp5.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 175, ../sass/vendor/_bp5.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
